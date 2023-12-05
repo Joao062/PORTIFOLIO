@@ -1,0 +1,62 @@
+/* Reset de estilos padrão */
+
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+ol,
+figure,
+figcaption,
+blockquote,
+dl,
+dd,
+dt {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif; /* Define uma fonte padrão para o corpo do documento */
+}
+
+ul,
+ol {
+  list-style: none; /* Remove os marcadores e números padrão das listas */
+}
+
+a {
+  text-decoration: none; /* Remove o sublinhado padrão dos links */
+  color: inherit; /* Herda a cor do texto do elemento pai */
+}
+
+button,
+input,
+select,
+textarea {
+  margin: 0; /* Remove margens padrão */
+  padding: 0; /* Remove preenchimento padrão */
+  border: none; /* Remove borda padrão */
+  outline: none; /* Remove a borda ao focar */
+  font-family: inherit; /* Herda a fonte do elemento pai */
+}
+
+/* Adiciona uma caixa de modelo de borda de caixa a todos os elementos */
+* {
+  box-sizing: border-box;
+}
+
+/* Estilização adicional (opcional) */
+
+body {
+  background-color: #f8f8f8; /* Cor de fundo do corpo */
+  color: #333; /* Cor padrão do texto */
+}
+
+/* Estilos para a barra de rolagem (opcional) */
+
+body::-webkit-scrollbar {
+  width: 10px; /* Largura da barra de rolagem no Chrome/Safari/Edge */
+}
+
